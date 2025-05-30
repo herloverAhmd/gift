@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("../images/pcbg.png");
+  background-size: 80%;
+  display: flex;
+  flex-direction: column;
+}
+nav {
+  margin-top: 5vh;
+  right: auto;
+  left: auto;
+  align-self: center;
+  width: 90%;
+  height: 80px;
+  background-color: #99c1dd;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+  border: solid 2px #95bcd8;
+}
+nav div {
+  margin: 0px 15px;
+  background-image: url("../images/pdp.jpg");
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background-size: cover;
+  border: solid 2px #6291b2;
+}
+.container {
+  margin-bottom: 10vh;
+  line-height: 1.2;
+  align-self: center;
+  margin-top: 5vh;
+  padding: 5px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 90%;
+  max-width: 350px;
+  border-radius: 25px;
+  border: solid 2px #99c1dd;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+p {
+  justify-self: center;
+  max-width: 80%;
+}
+.card img {
+  width: 100%;
+  height: auto;
+  max-width: 80%;
+  border-radius: 5%;
+  border: solid 2px #99c1dd;
+}
